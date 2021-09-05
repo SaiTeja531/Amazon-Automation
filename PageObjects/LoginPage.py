@@ -12,13 +12,13 @@ class LoginPage(BaseClass):
         super().__init__(driver, wait, actions)
 
     def login(self):
-        self.sending_keys(LoginPage.email, "8466932669")
+        self.sending_keys(LoginPage.email, enter_your_login_id)
 
     def continue_click(self):
         self.click_if_visible(LoginPage.continue_button)
 
     def password_filed(self):
-        self.sending_keys(LoginPage.password, "Sakesh@143")
+        self.sending_keys(LoginPage.password, enter_your_password)
         self.click_if_visible(LoginPage.sign_in_button)
 
 
