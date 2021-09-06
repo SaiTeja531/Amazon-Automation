@@ -10,7 +10,7 @@
   2.fixture.py-->This python file contains all the fixtures used in this project we will inherit this class and use the fixtures we need inside a test case  
 #### I will further add more fixtures and common utilites in the Utilities folder  
 ### Test cases-Folder contains  
-  1.conftest.py-->this is a setup file which contains a common fixture of opening the browser and initiating the driver  
+  1.conftest.py-->this is a setup and teardown fixture which contains a common fixture of opening the browser and initiating the driver and closing the browser  
   2.test_case001.py-->This test case checks the login functionality  
   3.test_case002.py-->This test case checks the navigation bar of amazon page like  
       -->search box enters a text and prints the suggestions  
